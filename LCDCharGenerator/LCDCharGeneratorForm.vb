@@ -27,7 +27,7 @@ Imports System.Resources
 
 Public Class LCDCharGeneratorForm
 
-    Const numberOfRows As Integer = 7
+    Const numberOfRows As Integer = 8
     Const numberOfColumns As Integer = 5
 
     Dim myCharMatrix(numberOfRows, numberOfColumns) As Boolean
@@ -78,6 +78,12 @@ Public Class LCDCharGeneratorForm
         If myCharMatrix(7, 3) Then B73.BackColor = SelectedColour Else B73.BackColor = UnSelectedColour
         If myCharMatrix(7, 4) Then B74.BackColor = SelectedColour Else B74.BackColor = UnSelectedColour
         If myCharMatrix(7, 5) Then B75.BackColor = SelectedColour Else B75.BackColor = UnSelectedColour
+
+        If myCharMatrix(8, 1) Then B81.BackColor = SelectedColour Else B81.BackColor = UnSelectedColour
+        If myCharMatrix(8, 2) Then B82.BackColor = SelectedColour Else B82.BackColor = UnSelectedColour
+        If myCharMatrix(8, 3) Then B83.BackColor = SelectedColour Else B83.BackColor = UnSelectedColour
+        If myCharMatrix(8, 4) Then B84.BackColor = SelectedColour Else B84.BackColor = UnSelectedColour
+        If myCharMatrix(8, 5) Then B85.BackColor = SelectedColour Else B85.BackColor = UnSelectedColour
 
 
     End Sub
@@ -193,7 +199,8 @@ Public Class LCDCharGeneratorForm
             B41.Click, B42.Click, B43.Click, B44.Click, B45.Click,
             B51.Click, B52.Click, B53.Click, B54.Click, B55.Click,
             B61.Click, B62.Click, B63.Click, B64.Click, B65.Click,
-            B71.Click, B72.Click, B73.Click, B74.Click, B75.Click
+            B71.Click, B72.Click, B73.Click, B74.Click, B75.Click,
+            B81.Click, B82.Click, B83.Click, B84.Click, B85.Click
 
         'button names in the grid start with a B, and are followed by two digits; the first digit is the row number, the second digit is the column number
         Dim Row As Int16 = Mid(sender.name, 2, 1)
@@ -212,7 +219,8 @@ Public Class LCDCharGeneratorForm
             B41.MouseEnter, B42.MouseEnter, B43.MouseEnter, B44.MouseEnter, B45.MouseEnter,
             B51.MouseEnter, B52.MouseEnter, B53.MouseEnter, B54.MouseEnter, B55.MouseEnter,
             B61.MouseEnter, B62.MouseEnter, B63.MouseEnter, B64.MouseEnter, B65.MouseEnter,
-            B71.MouseEnter, B72.MouseEnter, B73.MouseEnter, B74.MouseEnter, B75.MouseEnter
+            B71.MouseEnter, B72.MouseEnter, B73.MouseEnter, B74.MouseEnter, B75.MouseEnter,
+            B81.MouseEnter, B82.MouseEnter, B83.MouseEnter, B84.MouseEnter, B85.MouseEnter
 
         If My.Computer.Keyboard.ShiftKeyDown Then
 

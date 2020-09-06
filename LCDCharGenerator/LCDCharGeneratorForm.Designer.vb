@@ -23,6 +23,11 @@ Partial Class LCDCharGeneratorForm
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Me.TableLayoutPanel1 = New System.Windows.Forms.TableLayoutPanel()
+        Me.B82 = New System.Windows.Forms.Button()
+        Me.B81 = New System.Windows.Forms.Button()
+        Me.B83 = New System.Windows.Forms.Button()
+        Me.B85 = New System.Windows.Forms.Button()
+        Me.B84 = New System.Windows.Forms.Button()
         Me.B71 = New System.Windows.Forms.Button()
         Me.B72 = New System.Windows.Forms.Button()
         Me.B73 = New System.Windows.Forms.Button()
@@ -78,6 +83,11 @@ Partial Class LCDCharGeneratorForm
         Me.TableLayoutPanel1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 30.0!))
         Me.TableLayoutPanel1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 30.0!))
         Me.TableLayoutPanel1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 37.0!))
+        Me.TableLayoutPanel1.Controls.Add(Me.B82, 0, 7)
+        Me.TableLayoutPanel1.Controls.Add(Me.B81, 0, 7)
+        Me.TableLayoutPanel1.Controls.Add(Me.B83, 0, 7)
+        Me.TableLayoutPanel1.Controls.Add(Me.B85, 0, 7)
+        Me.TableLayoutPanel1.Controls.Add(Me.B84, 0, 7)
         Me.TableLayoutPanel1.Controls.Add(Me.B71, 0, 6)
         Me.TableLayoutPanel1.Controls.Add(Me.B72, 1, 6)
         Me.TableLayoutPanel1.Controls.Add(Me.B73, 2, 6)
@@ -116,7 +126,7 @@ Partial Class LCDCharGeneratorForm
         Me.TableLayoutPanel1.Location = New System.Drawing.Point(28, 9)
         Me.TableLayoutPanel1.Margin = New System.Windows.Forms.Padding(0)
         Me.TableLayoutPanel1.Name = "TableLayoutPanel1"
-        Me.TableLayoutPanel1.RowCount = 7
+        Me.TableLayoutPanel1.RowCount = 8
         Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 30.0!))
         Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 30.0!))
         Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 30.0!))
@@ -124,8 +134,54 @@ Partial Class LCDCharGeneratorForm
         Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 30.0!))
         Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 30.0!))
         Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 30.0!))
-        Me.TableLayoutPanel1.Size = New System.Drawing.Size(157, 209)
+        Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20.0!))
+        Me.TableLayoutPanel1.Size = New System.Drawing.Size(157, 239)
         Me.TableLayoutPanel1.TabIndex = 2
+        '
+        'B82
+        '
+        Me.B82.Location = New System.Drawing.Point(33, 213)
+        Me.B82.Name = "B82"
+        Me.B82.Size = New System.Drawing.Size(24, 23)
+        Me.B82.TabIndex = 36
+        Me.B82.Text = " "
+        Me.B82.UseVisualStyleBackColor = True
+        '
+        'B81
+        '
+        Me.B81.Location = New System.Drawing.Point(3, 213)
+        Me.B81.Name = "B81"
+        Me.B81.Size = New System.Drawing.Size(24, 23)
+        Me.B81.TabIndex = 35
+        Me.B81.Text = " "
+        Me.B81.UseVisualStyleBackColor = True
+        '
+        'B83
+        '
+        Me.B83.Location = New System.Drawing.Point(63, 213)
+        Me.B83.Name = "B83"
+        Me.B83.Size = New System.Drawing.Size(24, 23)
+        Me.B83.TabIndex = 37
+        Me.B83.Text = " "
+        Me.B83.UseVisualStyleBackColor = True
+        '
+        'B85
+        '
+        Me.B85.Location = New System.Drawing.Point(123, 213)
+        Me.B85.Name = "B85"
+        Me.B85.Size = New System.Drawing.Size(24, 23)
+        Me.B85.TabIndex = 39
+        Me.B85.Text = " "
+        Me.B85.UseVisualStyleBackColor = True
+        '
+        'B84
+        '
+        Me.B84.Location = New System.Drawing.Point(93, 213)
+        Me.B84.Name = "B84"
+        Me.B84.Size = New System.Drawing.Size(24, 23)
+        Me.B84.TabIndex = 38
+        Me.B84.Text = " "
+        Me.B84.UseVisualStyleBackColor = True
         '
         'B71
         '
@@ -445,17 +501,17 @@ Partial Class LCDCharGeneratorForm
         'TextBox1
         '
         Me.TextBox1.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox1.Location = New System.Drawing.Point(28, 261)
+        Me.TextBox1.Location = New System.Drawing.Point(29, 287)
         Me.TextBox1.Multiline = True
         Me.TextBox1.Name = "TextBox1"
         Me.TextBox1.ReadOnly = True
-        Me.TextBox1.Size = New System.Drawing.Size(157, 207)
+        Me.TextBox1.Size = New System.Drawing.Size(157, 211)
         Me.TextBox1.TabIndex = 0
         Me.TextBox1.TabStop = False
         '
         'CopyButton
         '
-        Me.CopyButton.Location = New System.Drawing.Point(28, 508)
+        Me.CopyButton.Location = New System.Drawing.Point(28, 541)
         Me.CopyButton.Name = "CopyButton"
         Me.CopyButton.Size = New System.Drawing.Size(157, 37)
         Me.CopyButton.TabIndex = 1
@@ -465,7 +521,7 @@ Partial Class LCDCharGeneratorForm
         'SelectAll
         '
         Me.SelectAll.AllowDrop = True
-        Me.SelectAll.Location = New System.Drawing.Point(28, 231)
+        Me.SelectAll.Location = New System.Drawing.Point(28, 257)
         Me.SelectAll.Name = "SelectAll"
         Me.SelectAll.Size = New System.Drawing.Size(73, 24)
         Me.SelectAll.TabIndex = 3
@@ -474,7 +530,7 @@ Partial Class LCDCharGeneratorForm
         '
         'ClearAll
         '
-        Me.ClearAll.Location = New System.Drawing.Point(112, 231)
+        Me.ClearAll.Location = New System.Drawing.Point(112, 257)
         Me.ClearAll.Name = "ClearAll"
         Me.ClearAll.Size = New System.Drawing.Size(73, 24)
         Me.ClearAll.TabIndex = 4
@@ -484,7 +540,7 @@ Partial Class LCDCharGeneratorForm
         'LinkLabel1
         '
         Me.LinkLabel1.AutoSize = True
-        Me.LinkLabel1.Location = New System.Drawing.Point(63, 614)
+        Me.LinkLabel1.Location = New System.Drawing.Point(63, 647)
         Me.LinkLabel1.Name = "LinkLabel1"
         Me.LinkLabel1.Size = New System.Drawing.Size(86, 13)
         Me.LinkLabel1.TabIndex = 9
@@ -494,7 +550,7 @@ Partial Class LCDCharGeneratorForm
         'LinkLabel2
         '
         Me.LinkLabel2.AutoSize = True
-        Me.LinkLabel2.Location = New System.Drawing.Point(73, 575)
+        Me.LinkLabel2.Location = New System.Drawing.Point(73, 608)
         Me.LinkLabel2.Name = "LinkLabel2"
         Me.LinkLabel2.Size = New System.Drawing.Size(66, 13)
         Me.LinkLabel2.TabIndex = 7
@@ -504,7 +560,7 @@ Partial Class LCDCharGeneratorForm
         'LinkLabel3
         '
         Me.LinkLabel3.AutoSize = True
-        Me.LinkLabel3.Location = New System.Drawing.Point(61, 556)
+        Me.LinkLabel3.Location = New System.Drawing.Point(61, 589)
         Me.LinkLabel3.Name = "LinkLabel3"
         Me.LinkLabel3.Size = New System.Drawing.Size(91, 13)
         Me.LinkLabel3.TabIndex = 6
@@ -514,7 +570,7 @@ Partial Class LCDCharGeneratorForm
         'cbCompressCode
         '
         Me.cbCompressCode.AutoSize = True
-        Me.cbCompressCode.Location = New System.Drawing.Point(48, 482)
+        Me.cbCompressCode.Location = New System.Drawing.Point(48, 515)
         Me.cbCompressCode.Name = "cbCompressCode"
         Me.cbCompressCode.Size = New System.Drawing.Size(116, 17)
         Me.cbCompressCode.TabIndex = 5
@@ -524,19 +580,19 @@ Partial Class LCDCharGeneratorForm
         'LinkLabel4
         '
         Me.LinkLabel4.AutoSize = True
-        Me.LinkLabel4.Location = New System.Drawing.Point(61, 595)
+        Me.LinkLabel4.Location = New System.Drawing.Point(61, 628)
         Me.LinkLabel4.Name = "LinkLabel4"
         Me.LinkLabel4.Size = New System.Drawing.Size(90, 13)
         Me.LinkLabel4.TabIndex = 8
         Me.LinkLabel4.TabStop = True
         Me.LinkLabel4.Text = "Source on Github"
         '
-        'Form1
+        'LCDCharGeneratorForm
         '
         Me.AcceptButton = Me.CopyButton
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(213, 636)
+        Me.ClientSize = New System.Drawing.Size(213, 676)
         Me.Controls.Add(Me.LinkLabel4)
         Me.Controls.Add(Me.cbCompressCode)
         Me.Controls.Add(Me.LinkLabel3)
@@ -548,9 +604,9 @@ Partial Class LCDCharGeneratorForm
         Me.Controls.Add(Me.TextBox1)
         Me.Controls.Add(Me.TableLayoutPanel1)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow
-        Me.Name = "Form1"
+        Me.Name = "LCDCharGeneratorForm"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
-        Me.Text = "LCD character generator v1"
+        Me.Text = "LCD character generator v1.1"
         Me.TableLayoutPanel1.ResumeLayout(False)
         Me.ResumeLayout(False)
         Me.PerformLayout()
@@ -602,4 +658,9 @@ Partial Class LCDCharGeneratorForm
     Friend WithEvents LinkLabel3 As LinkLabel
     Friend WithEvents cbCompressCode As CheckBox
     Friend WithEvents LinkLabel4 As LinkLabel
+    Friend WithEvents B82 As Button
+    Friend WithEvents B81 As Button
+    Friend WithEvents B83 As Button
+    Friend WithEvents B85 As Button
+    Friend WithEvents B84 As Button
 End Class
