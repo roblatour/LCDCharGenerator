@@ -6,3 +6,7 @@ Copyright © 2020, Rob Latour, Licensed under MIT
 A downloadable signed executable of the program is available from  [https://rlatour.com/lcd](https://rlatour.com/lcd)
 
 For more informaiton please visit  [https://rlatour.com/lcd](https://rlatour.com/lcd)
+
+## Support
+
+[<img alt="buy me  a coffee" width="200px" src="https://cdn.buymeacoffee.com/buttons/v2/default-blue.png" />](https://www.buymeacoffee.com/roblatour)
